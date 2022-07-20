@@ -297,6 +297,12 @@ public class OVRPlayerController : MonoBehaviour
 
 		moveDirection += MoveThrottle * SimulationRate * Time.deltaTime;
 
+
+		if (OVRInput.GetDown(OVRInput.RawButton.A))
+		{
+			Jump();
+		}
+
 		// Gravity
 		if (Controller.isGrounded && FallSpeed <= 0)
 			FallSpeed = ((Physics.gravity.y * (GravityModifier * 0.002f)));
