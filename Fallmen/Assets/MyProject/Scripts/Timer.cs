@@ -37,4 +37,14 @@ public class Timer : MonoBehaviour
         timerText.text = hour.ToString() + ":" + minute.ToString("00") + ":" + second.ToString("f2");
 
     }
+
+    void Update()
+    {
+        //　マウスの左ボタン押しで一時停止
+        if (Input.GetMouseButtonDown(0))
+        {
+            Time.timeScale = Mathf.Approximately(Time.timeScale, 0f) ? 1f : 0f;
+        }
+    }
 }
+
