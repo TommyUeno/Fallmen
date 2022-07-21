@@ -5679,10 +5679,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0950df82e7936c84983497630bde5b54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Acceleration: 0.1
+  Acceleration: 0.5
   Damping: 0.3
   BackAndSideDampen: 0.5
-  JumpForce: 0.3
+  JumpForce: 1.5
   RotationAmount: 1.5
   RotationRatchet: 45
   SnapRotation: 1
@@ -5690,7 +5690,7 @@ MonoBehaviour:
   FixedSpeedSteps: 0
   HmdResetsY: 1
   HmdRotatesY: 1
-  GravityModifier: 1
+  GravityModifier: 0.5
   useProfileData: 1
   EnableLinearMovement: 1
   EnableRotation: 1
