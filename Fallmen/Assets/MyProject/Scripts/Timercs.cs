@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Timer : MonoBehaviour
+public class Timercs : MonoBehaviour
 {
     private TextMeshProUGUI timerText;
     private float second;
@@ -38,13 +38,16 @@ public class Timer : MonoBehaviour
 
     }
 
+    public void TimerStop()
+    {
+        Time.timeScale = Mathf.Approximately(Time.timeScale, 0f) ? 1f : 0f;
+
+    }
+
+
     void Update()
     {
-        //　マウスの左ボタン押しで一時停止
-        if (Input.GetMouseButtonDown(0))
-        {
-            Time.timeScale = Mathf.Approximately(Time.timeScale, 0f) ? 1f : 0f;
-        }
+      
     }
 }
 

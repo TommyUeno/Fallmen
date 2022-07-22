@@ -7,6 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class Goal : MonoBehaviour
 {
+    [SerializeField] Timercs timer;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,9 +26,9 @@ public class Goal : MonoBehaviour
     {
        if(other.gameObject.CompareTag("Player"))
         {
-            Time.timeScale = Mathf.Approximately(Time.timeScale, 0f) ? 1f : 0f;
+            timer.TimerStop();
 
-            SceneManager.LoadScene(4);
+            //SceneManager.LoadScene(4);
         }
     }
 }
