@@ -22,7 +22,7 @@ public class ReStart : MonoBehaviour
         if(other.gameObject.CompareTag("Player"))
         {
             other.gameObject.SetActive(false);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().name);
         }
     }
 }
