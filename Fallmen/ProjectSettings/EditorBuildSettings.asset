@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/MyProject/Scenes/End.unity
     guid: a5f2b5abbacb547209c9f0244a2de6d9
-  - enabled: 1
+  - enabled: 0
     path: Assets/VR HUD - Sterile Future/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
