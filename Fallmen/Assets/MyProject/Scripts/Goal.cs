@@ -28,7 +28,7 @@ public class Goal : MonoBehaviour
         {
             timer.TimerStop();
 
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene("EndScene");
         }
     }
 }
