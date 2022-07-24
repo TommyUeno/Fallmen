@@ -8,7 +8,7 @@ public class Result : MonoBehaviour
 {
     private GameObject ScoreMaster;
     private ScoreData Sd;
-    public Text tx;
+    public TextMeshProUGUI tx;
     int second;
     int minute;
     int hour;
