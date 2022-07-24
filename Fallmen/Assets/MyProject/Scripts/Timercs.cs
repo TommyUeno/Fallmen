@@ -5,14 +5,13 @@ using TMPro;
 
 public class Timercs : MonoBehaviour
 {
-    private TextMeshProUGUI timerText;
-    private float second;
-    private int minute;
-    private int hour;
+    public TextMeshProUGUI timerText;
+    public float second;
+    public int minute;
+    public int hour;
     private object collision;
 
     //???????
-    public int Score;
     public ScoreData Sd;
 
     // Start is called before the first frame update
@@ -20,7 +19,9 @@ public class Timercs : MonoBehaviour
     {
         timerText = GetComponent<TextMeshProUGUI>();
 
-        Score = 0;
+        second = 00;  
+        minute = 00;
+        hour = 00;
         Sd = GameObject.Find("ScoreData").GetComponent<ScoreData>();//???????????
 
 
@@ -55,8 +56,10 @@ public class Timercs : MonoBehaviour
 
     void Update()
     {
-        timerText.text = string.Format("{0}", Score);  //GameMain??????????
-        Sd.Score = Score;  //ScoreData???Score
+       
+        Sd.second = (int)second;  //ScoreData???Score
+        Sd.minute = (int)minute;
+        Sd.hour = (int)hour;
     }
 }
 

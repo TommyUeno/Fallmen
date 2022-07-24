@@ -1,19 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class ScoreData : MonoBehaviour
 {
-    public int Score;
+    public int second,minute,hour;
+ 
 
     void Start()
     {
         DontDestroyOnLoad(this.gameObject);  //DontDestroyOnLoadでシーン遷移後も保存出来る
-        Score = 0;  //ゲームスタート時のスコア
+        second = 00;  //ゲームスタート時のスコア
+        minute = 00;
+        hour = 00;
+        
     }
 
     public int GetScore()
     {
-        return Score;  //スコア変数をResultスクリプトへ返す
+        return second;  //スコア変数をResultスクリプトへ返す
+        return minute;
+        return hour;
     }
 }
