@@ -22,6 +22,6 @@ public class Gotomain : MonoBehaviour
     public void OnClick()
     {
         Invoke("ChangeScene", 2f);
-        SceneManager.LoadScene(3);
+        SceneManager.LoadSceneAsync(3);
     }
 }
