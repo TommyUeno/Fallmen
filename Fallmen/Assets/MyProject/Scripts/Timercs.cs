@@ -11,10 +11,18 @@ public class Timercs : MonoBehaviour
     private int hour;
     private object collision;
 
+    //???????
+    public int Score;
+    public ScoreData Sd;
+
     // Start is called before the first frame update
     void Start()
     {
         timerText = GetComponent<TextMeshProUGUI>();
+
+        Score = 0;
+        Sd = GameObject.Find("ScoreData").GetComponent<ScoreData>();//???????????
+
 
     }
 
@@ -47,7 +55,8 @@ public class Timercs : MonoBehaviour
 
     void Update()
     {
-      
+        timerText.text = string.Format("{0}", Score);  //GameMain??????????
+        Sd.Score = Score;  //ScoreData???Score
     }
 }
 
