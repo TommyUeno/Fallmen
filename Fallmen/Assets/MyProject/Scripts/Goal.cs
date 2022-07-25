@@ -26,9 +26,11 @@ public class Goal : MonoBehaviour
     {
        if(other.gameObject.CompareTag("Player"))
         {
-            timer.TimerStop();
+           // timer.TimerStop();
 
-            SceneManager.LoadScene("EndScene");
+            Debug.Log(" scene cange");
+
+            SceneManager.LoadScene("End");
         }
     }
 }
