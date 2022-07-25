@@ -49,7 +49,7 @@ public class Timercs : MonoBehaviour
 
     public void TimerStop()
     {
-        Time.timeScale = Mathf.Approximately(Time.timeScale, 0f) ? 1f : 0f;
+       // Time.timeScale = Mathf.Approximately(Time.timeScale, 0f) ? 1f : 0f;
 
     }
 

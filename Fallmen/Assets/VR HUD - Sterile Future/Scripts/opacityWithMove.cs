@@ -17,6 +17,7 @@ public class opacityWithMove : MonoBehaviour
     float targetOpacity;
     float t;
 
+
     // Use this for initialization
     void Start()
     {
@@ -31,6 +32,7 @@ public class opacityWithMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         t = _speed * Time.deltaTime;
         if (_moveWithSight)
         {
@@ -48,13 +50,13 @@ public class opacityWithMove : MonoBehaviour
             {
                 if (_opacity <= 1)
                 {
-                    targetOpacity = _opacityChangeRatio * (1 / (_canvas._deltaY * 360));
-                    // _opacity = _opacityChangeRatio * (1/(_canvas._deltaY*360));
+                    //targetOpacity = _opacityChangeRatio * (1 / (_canvas._deltaY * 360));
+                     //_opacity = _opacityChangeRatio * (1/(_canvas._deltaY*360));
                     _opacity = Mathf.Lerp(_opacity, targetOpacity, t);
                 }
                 else
                 {
-                    _opacity = 1;
+                    _opacity = 100;
                 }
 
 
