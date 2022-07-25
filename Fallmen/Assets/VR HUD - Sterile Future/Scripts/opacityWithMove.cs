@@ -48,7 +48,7 @@ public class opacityWithMove : MonoBehaviour
             {
                 if (_opacity <= 1)
                 {
-                   // targetOpacity = _opacityChangeRatio * (1 / (_canvas._deltaY * 360));
+                    targetOpacity = _opacityChangeRatio * (1 / (_canvas._deltaY * 360));
                     // _opacity = _opacityChangeRatio * (1/(_canvas._deltaY*360));
                     _opacity = Mathf.Lerp(_opacity, targetOpacity, t);
                 }
