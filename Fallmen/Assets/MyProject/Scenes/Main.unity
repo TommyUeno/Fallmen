@@ -885,7 +885,7 @@ MonoBehaviour:
   _moveWithSight: 1
   _opacity: 0
   _axis: 1
-  _opacityChangeRatio: 175
+  _opacityChangeRatio: 150
 --- !u!114 &556245735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3105,7 +3105,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1909962635410831749}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.055}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5045,7 +5045,7 @@ MonoBehaviour:
   _moveWithSight: 1
   _opacity: 0
   _axis: 1
-  _opacityChangeRatio: 175
+  _opacityChangeRatio: 150
 --- !u!114 &1951138051636089461
 MonoBehaviour:
   m_ObjectHideFlags: 0
