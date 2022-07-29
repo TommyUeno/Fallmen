@@ -14,12 +14,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MyProject/Scenes/Robie.unity
     guid: ea4df832f7dff46a297f1dac7f0f558a
-  - enabled: 1
+  - enabled: 0
     path: Assets/MyProject/Scenes/Main.unity
     guid: e48ba0bf56d1e4fe9a5b06c9a04452f8
-  - enabled: 1
+  - enabled: 0
     path: Assets/MyProject/Scenes/End.unity
     guid: a5f2b5abbacb547209c9f0244a2de6d9
+  - enabled: 1
+    path: Assets/Yamanaka/Stage.unity
+    guid: ddcde30d94c70f14193561376e136193
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 484442d1db2f347b0a53d71ad8e207b4, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f610ef514cb7d4a4cb380c2e3cd49463, type: 2}
