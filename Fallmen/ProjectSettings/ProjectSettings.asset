@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: fallmen
-  productName: Fallmen
+  companyName: vacaperson
+  productName: Fall-men
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.12156863, g: 0.12156863, b: 0.1254902, a: 1}
@@ -135,7 +135,9 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: -5436388488306354734, guid: f610ef514cb7d4a4cb380c2e3cd49463, type: 2}
+  - {fileID: 11400000, guid: 484442d1db2f347b0a53d71ad8e207b4, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -155,7 +157,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.fallmen.Fallmen
+    Android: com.vacaperson.Fallmen
   buildNumber:
     Standalone: 0
     iPhone: 0
