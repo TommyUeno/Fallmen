@@ -13,6 +13,10 @@ public class opacityWithMove : MonoBehaviour
     [SerializeField] private float _opacity;
     public AxisType _axis;
     public float _opacityChangeRatio;
+
+    float targetOpacity;
+    float t;
+
     // Use this for initialization
     void Start()
     {
@@ -27,7 +31,7 @@ public class opacityWithMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float t = _speed * Time.deltaTime;
+        t = _speed * Time.deltaTime;
         if (_moveWithSight)
         {
 
@@ -44,7 +48,7 @@ public class opacityWithMove : MonoBehaviour
             {
                 if (_opacity <= 1)
                 {
-                    float targetOpacity = _opacityChangeRatio * (1 / (_canvas._deltaY * 360));
+                    targetOpacity = _opacityChangeRatio * (1 / (_canvas._deltaY * 360));
                     // _opacity = _opacityChangeRatio * (1/(_canvas._deltaY*360));
                     _opacity = Mathf.Lerp(_opacity, targetOpacity, t);
                 }

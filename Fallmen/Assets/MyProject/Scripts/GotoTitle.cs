@@ -22,6 +22,6 @@ public class GotoTitle : MonoBehaviour
 
     void ChangeScene()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadSceneAsync(1);
     }
 }
