@@ -18,7 +18,7 @@ public class Gotomain : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.A))
         {
-            SceneManager.LoadSceneAsync("Main");
+            SceneManager.LoadSceneAsync(3);
         }
     }
 
