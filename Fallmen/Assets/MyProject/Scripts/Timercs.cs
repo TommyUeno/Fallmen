@@ -6,7 +6,7 @@ using TMPro;
 public class Timercs : MonoBehaviour
 {
     public TextMeshProUGUI timerText;
-    public float second;
+    public int second;
     public int minute;
     public int hour;
     private object collision;
@@ -22,7 +22,7 @@ public class Timercs : MonoBehaviour
         second = 00;  
         minute = 00;
         hour = 00;
-        Sd = GameObject.Find("ScoreData").GetComponent<ScoreData>();//???????????
+        Sd = GameObject.Find("ScoreData").GetComponent<ScoreData>();
 
 
     }
@@ -30,33 +30,33 @@ public class Timercs : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        second += Time.deltaTime;
-
-        if (minute >= 60)
-        {
-            hour++;
-            minute = 0;
-        }
-        if (second > 60f)
-        {
-            minute++;
-            second = 0;
-        }
-
-        timerText.text = hour.ToString() + ":" + minute.ToString("00") + ":" + second.ToString("f2");
 
     }
 
     public void TimerStop()
     {
-        Time.timeScale = Mathf.Approximately(Time.timeScale, 0f) ? 1f : 0f;
+    //    Time.timeScale = Mathf.Approximately(Time.timeScale, 0f) ? 1f : 0f;
 
     }
 
 
-    void Update()
+    public void Update()
     {
-       
+        second += Time.deltaTime;
+
+        if (minute >= 60)
+        {
+            hour++;
+            minute = 00;
+        }
+        if (second > 60f)
+        {
+            minute++;
+            second = 00;
+        }
+
+        timerText.text = hour.ToString() + ":" + minute.ToString("00") + ":" + second.ToString("f2");
+
         Sd.second = (int)second;  //ScoreData???Score
         Sd.minute = (int)minute;
         Sd.hour = (int)hour;

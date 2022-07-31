@@ -18,11 +18,14 @@ public class Result : MonoBehaviour
         ScoreMaster = GameObject.Find("ScoreData");  //ScoreDataを見つける
         Sd = ScoreMaster.GetComponent<ScoreData>();
 
-        second = Sd.GetScore();  //ScoreDataの中のGetScore関数を呼び出す
-        minute = Sd.GetScore();
-        hour = Sd.GetScore();
+       int second = (int)Sd.GetScore();  //ScoreDataの中のGetScore関数を呼び出す
+       float minute = Sd.GetScore();
+       float hour = Sd.GetScore();
 
         //アタッチしたオブジェクトに反映したいテキストを紐づける。
-        tx.text = string.Format("Score  {0:00:00:00}", second,minute,hour);
+        //tx.text = string.Format("Score  {0:00:00:00}", second,minute,hour);
+
+        tx.text = hour.ToString() + ":" + minute.ToString("00") + ":" + second.ToString("f2");
+
     }
 }
