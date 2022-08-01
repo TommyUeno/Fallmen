@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+
 public class Timercs : MonoBehaviour
 {
     public TextMeshProUGUI timerText;
@@ -30,6 +31,19 @@ public class Timercs : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        
+
+    }
+
+    public void TimerStop()
+    {
+        Time.timeScale = Mathf.Approximately(Time.timeScale, 0f) ? 1f : 0f;
+
+    }
+
+
+    void Update()
+    {
         second += Time.deltaTime;
 
         if (minute >= 60)
@@ -45,18 +59,6 @@ public class Timercs : MonoBehaviour
 
         timerText.text = hour.ToString() + ":" + minute.ToString("00") + ":" + second.ToString("f2");
 
-    }
-
-    public void TimerStop()
-    {
-        Time.timeScale = Mathf.Approximately(Time.timeScale, 0f) ? 1f : 0f;
-
-    }
-
-
-    void Update()
-    {
-       
         Sd.second = (int)second;  //ScoreData???Score
         Sd.minute = (int)minute;
         Sd.hour = (int)hour;

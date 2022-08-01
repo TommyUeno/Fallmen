@@ -9,11 +9,11 @@ public class Result : MonoBehaviour
     private GameObject ScoreMaster;
     private ScoreData Sd;
     public TextMeshProUGUI tx;
-    int second;
+    float second;
     int minute;
     int hour;
 
-    void Start()
+   public void Start()
     {
         ScoreMaster = GameObject.Find("ScoreData");  //ScoreDataを見つける
         Sd = ScoreMaster.GetComponent<ScoreData>();
@@ -23,6 +23,8 @@ public class Result : MonoBehaviour
         hour = Sd.GetScore();
 
         //アタッチしたオブジェクトに反映したいテキストを紐づける。
-        tx.text = string.Format("Score  {0:00:00:00}", second,minute,hour);
+        tx.text = string.Format("Score  {0:00:00:00}", hour,minute,second);
+        
+       // tx.text = string.Format(hour.ToString() + ":" + minute.ToString("00") + ":" + second.ToString("f2"));
     }
 }
