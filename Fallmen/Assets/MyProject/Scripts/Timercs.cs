@@ -60,8 +60,8 @@ public class Timercs : MonoBehaviour
         timerText.text = hour.ToString() + ":" + minute.ToString("00") + ":" + second.ToString("f2");
 
         Sd.second = (int)second;  //ScoreData???Score
-        Sd.minute = (int)minute;
-        Sd.hour = (int)hour;
+        Sd.minute = minute;
+        Sd.hour = hour;
     }
 }
 
