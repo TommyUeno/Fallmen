@@ -6,7 +6,8 @@ using TMPro;
 
 public class ScoreData : MonoBehaviour
 {
-    public int second,minute,hour;
+    public int minute,hour;
+    public float second;
  
 
     void Start()
@@ -18,10 +19,18 @@ public class ScoreData : MonoBehaviour
         
     }
 
-    public int GetScore()
+    public float GetScore()
     {
         return second;  //スコア変数をResultスクリプトへ返す
+      
+    }
+    public int getminutes()
+    {
         return minute;
+    }
+    public int gethour()
+    {
         return hour;
     }
+
 }

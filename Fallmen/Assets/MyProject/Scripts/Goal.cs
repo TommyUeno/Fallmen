@@ -30,7 +30,7 @@ public class Goal : MonoBehaviour
 
             Debug.Log(" scene cange");
 
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene("End");
         }
     }
 }
