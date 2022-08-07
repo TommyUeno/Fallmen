@@ -11,13 +11,13 @@ public class NovelScript : MonoBehaviour
     [SerializeField] float novelSpeed;
     int novelListIndex = 0;
 
-    public Animator animator;
-
+    [SerializeField] GameObject GameStartUI;
 
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(Novel());
+        GameStartUI.SetActive(false);
     }
 
     private IEnumerator Novel()
@@ -49,8 +49,8 @@ public class NovelScript : MonoBehaviour
             yield return new WaitUntil(() => Input.GetKey(KeyCode.Space));
             //OVRInput.GetDown(OVRInput.RawButton.B));
 
-            animator.SetTrigger("UIFade");
             this.gameObject.SetActive(false);
+            GameStartUI.SetActive(true);
         }
 
     }
