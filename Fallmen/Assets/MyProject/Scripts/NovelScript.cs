@@ -11,6 +11,9 @@ public class NovelScript : MonoBehaviour
     [SerializeField] float novelSpeed;
     int novelListIndex = 0;
 
+    public Animator animator;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,16 +39,17 @@ public class NovelScript : MonoBehaviour
         if(novelListIndex < messageList.Count)
         {
             yield return new WaitForSeconds(0.2f);
-            yield return new WaitUntil(() => //Input.GetKey(KeyCode.Space));
-            OVRInput.GetDown(OVRInput.RawButton.B));
+            yield return new WaitUntil(() => Input.GetKey(KeyCode.Space));
+           // OVRInput.GetDown(OVRInput.RawButton.B));
             StartCoroutine(Novel());
         }
         else
         {
             yield return new WaitForSeconds(0.2f);
-            yield return new WaitUntil(() => //Input.GetKey(KeyCode.Space));
-            OVRInput.GetDown(OVRInput.RawButton.B));
+            yield return new WaitUntil(() => Input.GetKey(KeyCode.Space));
+            //OVRInput.GetDown(OVRInput.RawButton.B));
 
+            animator.SetTrigger("UIFade");
             this.gameObject.SetActive(false);
         }
 

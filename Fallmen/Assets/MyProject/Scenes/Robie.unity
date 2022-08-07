@@ -226,25 +226,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!320 &40527775
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 40527773}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 0c419e9aaa488417c9c7e850a828a1ad, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings:
-  - key: {fileID: -6691260541302194734, guid: 0c419e9aaa488417c9c7e850a828a1ad, type: 2}
-    value: {fileID: 40527773}
-  m_ExposedReferences:
-    m_References: []
 --- !u!1 &71276672
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,6 +1619,7 @@ MonoBehaviour:
   - "\u4EE5\u4E0A\u3060"
   text: {fileID: 405471815}
   novelSpeed: 0.12
+  animator: {fileID: 0}
 --- !u!222 &684075771
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1672,7 +1654,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855376989}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 16}
+  m_LocalPosition: {x: 0, y: 0, z: 2.5}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1743,11 +1725,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8748575664569821046, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.39
+      value: 5.42
       objectReference: {fileID: 0}
     - target: {fileID: 8748575664569821046, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.44
+      value: -1.15
       objectReference: {fileID: 0}
     - target: {fileID: 8748575664569821046, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3793,7 +3775,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2098205826}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 15}
+  m_LocalPosition: {x: 0, y: 0, z: -2.6}
   m_LocalScale: {x: 0.11, y: 0.11, z: 0.11}
   m_ConstrainProportionsScale: 1
   m_Children: []
