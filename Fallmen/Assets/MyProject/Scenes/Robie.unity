@@ -1731,6 +1731,22 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1730655028732252142, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730655028789803891, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 11.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730655028789803891, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 19.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730655029444052049, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 587c9a527ccec485eb2530f47da68ee2, type: 3}
+    - target: {fileID: 1730655029444052049, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
+      propertyPath: m_RaycastPadding.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8748575664569334616, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}

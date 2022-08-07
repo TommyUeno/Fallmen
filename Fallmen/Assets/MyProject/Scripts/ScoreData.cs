@@ -6,8 +6,9 @@ using TMPro;
 
 public class ScoreData : MonoBehaviour
 {
-    public int minute,hour;
     public float second;
+    public int minute,hour;
+    
  
 
     void Start()
