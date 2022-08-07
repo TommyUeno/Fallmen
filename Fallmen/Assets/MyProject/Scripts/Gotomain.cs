@@ -16,10 +16,7 @@ public class Gotomain : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.A))
-        {
-            SceneManager.LoadSceneAsync(3);
-        }
+
     }
 
     public void OnClick()
