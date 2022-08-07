@@ -36,15 +36,15 @@ public class NovelScript : MonoBehaviour
         if(novelListIndex < messageList.Count)
         {
             yield return new WaitForSeconds(0.2f);
-            yield return new WaitUntil(() => Input.GetKey(KeyCode.Space));
-            //OVRInput.GetDown(OVRInput.RawButton.B));
+            yield return new WaitUntil(() => //Input.GetKey(KeyCode.Space));
+            OVRInput.GetDown(OVRInput.RawButton.B));
             StartCoroutine(Novel());
         }
         else
         {
             yield return new WaitForSeconds(0.2f);
-            yield return new WaitUntil(() => Input.GetKey(KeyCode.Space));
-            //OVRInput.GetDown(OVRInput.RawButton.B));
+            yield return new WaitUntil(() => //Input.GetKey(KeyCode.Space));
+            OVRInput.GetDown(OVRInput.RawButton.B));
 
             this.gameObject.SetActive(false);
         }

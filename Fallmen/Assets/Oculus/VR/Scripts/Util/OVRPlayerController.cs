@@ -171,7 +171,7 @@ public class OVRPlayerController : MonoBehaviour
 
 	
 
-	public GameObject opui;
+	[SerializeField] GameObject opui;
 
 	void Start()
 	{
