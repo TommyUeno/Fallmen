@@ -13,6 +13,8 @@ public class Result : MonoBehaviour
     int minute;
     int hour;
 
+    public TextMeshProUGUI ranktx;
+
    public void Start()
     {
         ScoreMaster = GameObject.Find("ScoreData");  //ScoreDataを見つける
@@ -21,7 +23,7 @@ public class Result : MonoBehaviour
         second = Sd.GetScore();  //ScoreDataの中のGetScore関数を呼び出す
         minute = Sd.getminutes();
         hour = Sd.gethour();
-        Debug.Log(hour + " jikann" + minute + "hhunn" + second + "byou");//  console appered
+        
 
         //アタッチしたオブジェクトに反映したいテキストを紐づける。
         //tx.text = string.Format("Score  {0:00:00:00}", hour,minute,second);
@@ -29,5 +31,6 @@ public class Result : MonoBehaviour
         //tx.text = string.Format(hour.ToString() + ":" + minute.ToString("00") + ":" + second.ToString("f2"));
 
         tx.text = hour.ToString() + ":" + minute.ToString("00") + ":" + second.ToString("f2");
+        
     }
 }

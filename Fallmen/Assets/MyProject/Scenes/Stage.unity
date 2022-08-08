@@ -15364,6 +15364,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1730655028732252142, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8748575664569334616, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
       propertyPath: m_Name
       value: OVRPlayerController
