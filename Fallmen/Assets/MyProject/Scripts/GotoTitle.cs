@@ -11,7 +11,7 @@ public class GotoTitle : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Invoke("ChangeScene", 1.5f);
+        Invoke("ChangeScene", 5f);
     }
 
     // Update is called once per frame
