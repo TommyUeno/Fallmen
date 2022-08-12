@@ -144,6 +144,7 @@ Library: lib_burst_generated
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Unity.Services.Core.Telemetry.dll
+--root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Unity.VisualScripting.State.dll
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Oculus.Interaction.dll
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll
@@ -159,6 +160,7 @@ Library: lib_burst_generated
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/VoiceSDK.Runtime.dll
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Facebook.WitAI.dll
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Unity.Services.Core.Internal.dll
+--root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Unity.XR.ARCore.dll
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Unity.Timeline.dll
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Oculus.Interaction.Samples.dll
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Unity.Mathematics.dll
