@@ -172,8 +172,9 @@ public class OVRPlayerController : MonoBehaviour
 	
 
 	[SerializeField] GameObject opui;
+    private bool isOnGround;
 
-	void Start()
+    void Start()
 	{
 
 		// Add eye-depth as a camera offset from the player controller
@@ -223,6 +224,8 @@ public class OVRPlayerController : MonoBehaviour
 
 	public void Update()
 	{
+
+
 		if (OVRInput.GetDown(OVRInput.RawButton.X))
 		{
 			opui.SetActive(true);

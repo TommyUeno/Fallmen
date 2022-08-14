@@ -2163,18 +2163,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1942627569476363180, guid: 5560b12413788da4994a3cee6babb94f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1942627569476363180, guid: 5560b12413788da4994a3cee6babb94f, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1942627569476363180, guid: 5560b12413788da4994a3cee6babb94f, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1942627569476363180, guid: 5560b12413788da4994a3cee6babb94f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -15421,10 +15409,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1730655028732252142, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8748575664569334616, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
       propertyPath: m_Name
       value: OVRPlayerController
