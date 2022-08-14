@@ -393,11 +393,19 @@ public class OVRPlayerController : MonoBehaviour
 				(moveBack && moveLeft) || (moveBack && moveRight))
 				MoveScale = 0.70710678f;
 
-			// No positional movement if we are in the air
-			// if (!Controller.isGrounded)
-				//MoveScale = 0.0f;
+			///////// No positional movement if we are in the air
+			 if (!Controller.isGrounded)
+			{
+				OVRInput.SetControllerVibration(frequency: 0.1f, amplitude: 0.1f);
+		    }
+		    else
+		    {
+			    OVRInput.SetControllerVibration(0, 0);
+		    }
 
-			MoveScale *= SimulationRate * Time.deltaTime;
+		//MoveScale = 0.0f;
+
+		MoveScale *= SimulationRate * Time.deltaTime;
 
 			// Compute this for key movement
 			float moveInfluence = Acceleration * 0.1f * MoveScale * MoveScaleMultiplier;
