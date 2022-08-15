@@ -169,6 +169,8 @@ public class OVRPlayerController : MonoBehaviour
 	private bool ReadyToSnapTurn; // Set to true when a snap turn has occurred, code requires one frame of centered thumbstick to enable another snap turn.
 	private bool playerControllerEnabled = false;
 
+
+	public float i;
 	
 
 	[SerializeField] GameObject opui;
@@ -322,9 +324,9 @@ public class OVRPlayerController : MonoBehaviour
 			Jump();
 		}
 
-		// Gravity
+		//////////////// Gravity
 		if (Controller.isGrounded && FallSpeed <= 0)
-			FallSpeed = ((Physics.gravity.y * (GravityModifier * 0.002f)));
+			FallSpeed = ((Physics.gravity.y * (GravityModifier * 0.002f )));
 		else
 			FallSpeed += ((Physics.gravity.y * (GravityModifier * 0.002f)) * SimulationRate * Time.deltaTime);
 

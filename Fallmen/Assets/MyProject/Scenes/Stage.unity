@@ -10275,6 +10275,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1806680513116206669, guid: 4272b4b9f7e544dddafc25d4956825d9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 38b893062cf7b4b998de0d0c4bbc09ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 4272b4b9f7e544dddafc25d4956825d9, type: 3}
       propertyPath: m_Name
       value: TokyoTower
@@ -11442,7 +11446,7 @@ GameObject:
   - component: {fileID: 8008982806310660607}
   - component: {fileID: 8008982806310660606}
   - component: {fileID: 8008982806310660593}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11589,7 +11593,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8008982806637215007}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TimerUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11726,7 +11730,7 @@ GameObject:
   - component: {fileID: 8008982807143232426}
   - component: {fileID: 8008982807143232427}
   - component: {fileID: 8008982807143232424}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13045,7 +13049,7 @@ GameObject:
   - component: {fileID: 8556481540687562414}
   - component: {fileID: 8598300579724306750}
   - component: {fileID: 8374586695692033686}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: hudSprite-11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13062,7 +13066,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8480700646622776986}
   - component: {fileID: 8159251199609428056}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: New Sprite Mask (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13130,7 +13134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8480655875202974352}
   - component: {fileID: 8159116097711022506}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: New Sprite Mask (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13147,7 +13151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8479973986407963190}
   - component: {fileID: 8374052721484164670}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Canvas Layer 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13164,7 +13168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8480099700406944352}
   - component: {fileID: 8374279623605360250}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Canvas Layer 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13197,7 +13201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8480428734739429750}
   - component: {fileID: 8158529541006134658}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: New Sprite Mask (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13214,7 +13218,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8555877862133541210}
   - component: {fileID: 8598481850177094722}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: hudSprite-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13231,7 +13235,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8480047418213066768}
   - component: {fileID: 8159013096380368852}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: New Sprite Mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13250,7 +13254,7 @@ GameObject:
   - component: {fileID: 8554722671881270566}
   - component: {fileID: 8373811053831616674}
   - component: {fileID: 8553777270607324008}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13267,7 +13271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8480283437084784558}
   - component: {fileID: 8158607425225395340}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: New Sprite Mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13283,7 +13287,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8556195740842331118}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: masks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13299,7 +13303,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8555964937948955524}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: masks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13316,7 +13320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8480558978789420108}
   - component: {fileID: 8158505005674943974}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: New Sprite Mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13333,7 +13337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8480531442110111580}
   - component: {fileID: 8374176393014131470}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Canvas Layer 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13352,7 +13356,7 @@ GameObject:
   - component: {fileID: 8554913732687965846}
   - component: {fileID: 8373942612045377970}
   - component: {fileID: 8553915400478505816}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13369,7 +13373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8480031789218276726}
   - component: {fileID: 8159179391755069746}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: New Sprite Mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13387,7 +13391,7 @@ GameObject:
   - component: {fileID: 8555752796685476528}
   - component: {fileID: 8598569952967568528}
   - component: {fileID: 8374320202644635726}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: hudSprite-11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13405,7 +13409,7 @@ GameObject:
   - component: {fileID: 8556174439910180024}
   - component: {fileID: 8597911144717582240}
   - component: {fileID: 8374346000225434542}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: hudSprite-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13481,7 +13485,7 @@ GameObject:
   - component: {fileID: 8554278168940231914}
   - component: {fileID: 8374346277363354312}
   - component: {fileID: 8373714224300909264}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: xAxisIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13517,7 +13521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8556570429361281094}
   - component: {fileID: 8597889651841539648}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: hudSprite-6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13552,7 +13556,7 @@ GameObject:
   - component: {fileID: 8554167898957835916}
   - component: {fileID: 8374500511587297886}
   - component: {fileID: 8373722723619638132}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: yAxisIndicator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13569,7 +13573,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8556389082182870144}
   - component: {fileID: 8598667063762504444}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: hudSprite-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13585,7 +13589,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8555931141422316728}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: HUD Object 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13603,7 +13607,7 @@ GameObject:
   - component: {fileID: 8555973182025378050}
   - component: {fileID: 8598392864665391584}
   - component: {fileID: 8373709766176053434}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: hudSprite-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13620,7 +13624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8480609022078548570}
   - component: {fileID: 8159220863242025806}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: New Sprite Mask (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13636,7 +13640,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8555703674582672514}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: HUD Object 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13654,7 +13658,7 @@ GameObject:
   - component: {fileID: 8556185836642147950}
   - component: {fileID: 8597823137661501334}
   - component: {fileID: 8374288077871165284}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: hudSprite-4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13673,7 +13677,7 @@ GameObject:
   - component: {fileID: 8553987303902787226}
   - component: {fileID: 8374401130135261670}
   - component: {fileID: 8374032800952960514}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: FillingBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13744,7 +13748,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8480276005212894938}
   - component: {fileID: 8374052153787251206}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Canvas Layer 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13819,7 +13823,7 @@ GameObject:
   - component: {fileID: 8556655325812710118}
   - component: {fileID: 8598007683403197414}
   - component: {fileID: 8373921200242653570}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: hudSprite-5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13835,7 +13839,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8480637820524956048}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: HUD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13853,7 +13857,7 @@ GameObject:
   - component: {fileID: 8556655232734091392}
   - component: {fileID: 8554699041889620974}
   - component: {fileID: 8374054861607761756}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15482,6 +15486,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1730655028732252142, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1730655029444052051, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8748575664569334616, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
       propertyPath: m_Name
       value: OVRPlayerController
@@ -15529,6 +15541,26 @@ PrefabInstance:
     - target: {fileID: 8748575664569821046, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8748575664570334688, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8748575664579563194, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
+      propertyPath: Damping
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8748575664579776963, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
+      propertyPath: m_CameraType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8748575664579776963, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
+      propertyPath: m_Cameras.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8748575664579776963, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
+      propertyPath: m_Cameras.Array.data[0]
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
