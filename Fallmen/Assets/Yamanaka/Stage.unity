@@ -6322,6 +6322,7 @@ MonoBehaviour:
   EnableLinearMovement: 1
   EnableRotation: 1
   RotationEitherThumbstick: 0
+  i: 0
   opui: {fileID: 1234479463}
 --- !u!143 &928234317
 CharacterController:
@@ -7710,7 +7711,7 @@ SpriteRenderer:
   m_Size: {x: 8.29, y: 6.15}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &1176018355
