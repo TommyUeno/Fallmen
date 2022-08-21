@@ -205,8 +205,8 @@ Material:
     - _premultiply: 0
     m_Colors:
     - _BASE_COLOR: {r: 1, g: 1, b: 1, a: 1}
-    - _BaseColor: {r: 0.009433985, g: 0.009211485, b: 0.009211485, a: 1}
-    - _Color: {r: 0.009433985, g: 0.009211485, b: 0.009211485, a: 1}
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _EMISSION_COLOR: {r: 0, g: 0, b: 0, a: 0}
     - _EdgeColor: {r: 0, g: 3.890196, b: 4, a: 0}
     - _Emission: {r: 0, g: 0, b: 0, a: 0}
