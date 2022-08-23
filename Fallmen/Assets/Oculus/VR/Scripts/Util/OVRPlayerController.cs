@@ -21,8 +21,6 @@
 using System;
 using UnityEngine;
 
-using UnityEngine.SceneManagement;
-
 /// <summary>
 /// Controls the player's movement in virtual reality.
 /// </summary>
@@ -169,16 +167,8 @@ public class OVRPlayerController : MonoBehaviour
 	private bool ReadyToSnapTurn; // Set to true when a snap turn has occurred, code requires one frame of centered thumbstick to enable another snap turn.
 	private bool playerControllerEnabled = false;
 
-
-	public float i;
-	
-
-	[SerializeField] GameObject opui;
-    private bool isOnGround;
-
-    void Start()
+	void Start()
 	{
-
 		// Add eye-depth as a camera offset from the player controller
 		var p = CameraRig.transform.localPosition;
 		p.z = OVRManager.profile.eyeDepth;
@@ -224,19 +214,8 @@ public class OVRPlayerController : MonoBehaviour
 		}
 	}
 
-	public void Update()
+	void Update()
 	{
-
-
-		if (OVRInput.GetDown(OVRInput.RawButton.X))
-		{
-			opui.SetActive(true);
-		}
-		else if (OVRInput.GetUp(OVRInput.RawButton.X))
-        {
-			opui.SetActive(false);
-        }
-
 		if (!playerControllerEnabled)
 		{
 			if (OVRManager.OVRManagerinitialized)
@@ -318,15 +297,9 @@ public class OVRPlayerController : MonoBehaviour
 
 		moveDirection += MoveThrottle * SimulationRate * Time.deltaTime;
 
-
-		if (OVRInput.GetDown(OVRInput.RawButton.A))
-		{
-			Jump();
-		}
-
-		//////////////// Gravity
+		// Gravity
 		if (Controller.isGrounded && FallSpeed <= 0)
-			FallSpeed = ((Physics.gravity.y * (GravityModifier * 0.002f )));
+			FallSpeed = ((Physics.gravity.y * (GravityModifier * 0.002f)));
 		else
 			FallSpeed += ((Physics.gravity.y * (GravityModifier * 0.002f)) * SimulationRate * Time.deltaTime);
 
@@ -395,19 +368,11 @@ public class OVRPlayerController : MonoBehaviour
 				(moveBack && moveLeft) || (moveBack && moveRight))
 				MoveScale = 0.70710678f;
 
-			///////// No positional movement if we are in the air
-			 if (!Controller.isGrounded)
-			{
-				OVRInput.SetControllerVibration(frequency: 0.1f, amplitude: 0.1f);
-		    }
-		    else
-		    {
-			    OVRInput.SetControllerVibration(0, 0);
-		    }
+			// No positional movement if we are in the air
+			if (!Controller.isGrounded)
+				MoveScale = 0.0f;
 
-		//MoveScale = 0.0f;
-
-		MoveScale *= SimulationRate * Time.deltaTime;
+			MoveScale *= SimulationRate * Time.deltaTime;
 
 			// Compute this for key movement
 			float moveInfluence = Acceleration * 0.1f * MoveScale * MoveScaleMultiplier;

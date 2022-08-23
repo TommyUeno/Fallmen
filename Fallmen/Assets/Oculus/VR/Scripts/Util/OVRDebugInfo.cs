@@ -365,8 +365,8 @@ public class OVRDebugInfo : MonoBehaviour
     /// </summary>
     void UpdateFOV()
     {
-//        OVRDisplay.EyeRenderDesc eyeDesc = OVRManager.display.GetEyeRenderDesc(UnityEngine.XR.XRNode.LeftEye);
-     //   strFOV = System.String.Format("FOV (deg): {0:F3}", eyeDesc.fov.y);
+        OVRDisplay.EyeRenderDesc eyeDesc = OVRManager.display.GetEyeRenderDesc(UnityEngine.XR.XRNode.LeftEye);
+        strFOV = System.String.Format("FOV (deg): {0:F3}", eyeDesc.fov.y);
     }
 
     /// <summary>
