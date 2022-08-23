@@ -504,6 +504,7 @@ MonoBehaviour:
   EnableLinearMovement: 1
   EnableRotation: 1
   RotationEitherThumbstick: 0
+  i: 0
   opui: {fileID: 1730655028732252142}
 --- !u!114 &8748575664579762936
 MonoBehaviour:
