@@ -11,7 +11,7 @@ public class GotoRobie : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        Invoke("ChangeScene", 3f);
+        Invoke("ChangeScene", 8f);
     }
 
     // Update is called once per frame
@@ -22,6 +22,6 @@ public class GotoRobie : MonoBehaviour
 
     void ChangeScene()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Robie");
     }
 }
