@@ -114,11 +114,11 @@ Material:
     - _power_noize: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1.1353015, g: 0.041607905, b: 0.439855, a: 1}
-    - _Color_HD: {r: 1.3176471, g: 0, b: 1.0352942, a: 0}
+    - _Color: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
+    - _Color_HD: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _speed_xy_scale_zw: {r: 0, g: 0.25, b: 1, a: 1}
+    - _speed_xy_scale_zw: {r: 0, g: 0.04, b: 0.5, a: 0.5}
   m_BuildTextureStacks: []
 --- !u!114 &6137578254784200848
 MonoBehaviour:

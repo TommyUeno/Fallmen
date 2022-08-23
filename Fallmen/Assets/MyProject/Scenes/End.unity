@@ -402,6 +402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -901,6 +902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tx: {fileID: 1498504830}
+  ranktx: {fileID: 0}
 --- !u!4 &767602847
 Transform:
   m_ObjectHideFlags: 0
@@ -1708,8 +1710,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u3042\u306A\u305F\u306E\u30BF\u30A4\u30E0"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 88504d7f457b34cddacdc242e7707236, type: 2}
-  m_sharedMaterial: {fileID: 3530116157779588310, guid: 88504d7f457b34cddacdc242e7707236, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 44c37e07f50d84eac8aa1fbcad47a0a4, type: 2}
+  m_sharedMaterial: {fileID: 5607462141804850241, guid: 44c37e07f50d84eac8aa1fbcad47a0a4, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2162,6 +2164,7 @@ MonoBehaviour:
   EnableLinearMovement: 1
   EnableRotation: 1
   RotationEitherThumbstick: 0
+  i: 0
   opui: {fileID: 0}
 --- !u!143 &1849708436
 CharacterController:
@@ -2625,8 +2628,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u30E9\u30F3\u30AF"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 88504d7f457b34cddacdc242e7707236, type: 2}
-  m_sharedMaterial: {fileID: 3530116157779588310, guid: 88504d7f457b34cddacdc242e7707236, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
