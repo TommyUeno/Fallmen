@@ -22,6 +22,6 @@ public class GotoRobie : MonoBehaviour
 
     void ChangeScene()
     {
-        SceneManager.LoadScene("Robie");
+        SceneManager.LoadSceneAsync("Robie");
     }
 }
