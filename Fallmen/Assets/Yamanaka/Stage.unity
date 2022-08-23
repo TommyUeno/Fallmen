@@ -4639,18 +4639,18 @@ Transform:
   - {fileID: 4609395145920429572}
   - {fileID: 4609395145416004321}
   - {fileID: 4609395146038252960}
+  - {fileID: 4609395145899542717}
   - {fileID: 4609395145483364108}
+  - {fileID: 4609395145604659823}
+  - {fileID: 4609395146388898352}
   - {fileID: 4609395145672980969}
   - {fileID: 4609395146745514466}
   - {fileID: 4609395146264095742}
   - {fileID: 4609395145837066245}
   - {fileID: 4609395146458132660}
-  - {fileID: 4609395145604659823}
-  - {fileID: 4609395146388898352}
-  - {fileID: 4609395145899542717}
-  - {fileID: 4609395146883721528}
-  - {fileID: 4609395146926783058}
   - {fileID: 4609395146617511700}
+  - {fileID: 4609395146926783058}
+  - {fileID: 4609395146883721528}
   - {fileID: 4609395146832229114}
   - {fileID: 4609395146361766062}
   - {fileID: 4609395146794294593}
@@ -4744,6 +4744,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 302123599378485599, guid: d796bb5534d2a4e4e95067723cc05a5d, type: 3}
+      propertyPath: JumpForce
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 302123599378485599, guid: d796bb5534d2a4e4e95067723cc05a5d, type: 3}
+      propertyPath: GravityModifier
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 4954533715506866752, guid: d796bb5534d2a4e4e95067723cc05a5d, type: 3}
       propertyPath: m_RootOrder
       value: 5
