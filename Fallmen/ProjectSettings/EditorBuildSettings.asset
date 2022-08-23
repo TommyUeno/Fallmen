@@ -18,14 +18,14 @@ EditorBuildSettings:
     path: Assets/MyProject/Scenes/End.unity
     guid: a5f2b5abbacb547209c9f0244a2de6d9
   - enabled: 0
-    path: Assets/MyProject/Scenes/Sample.unity
-    guid: e48ba0bf56d1e4fe9a5b06c9a04452f8
-  - enabled: 0
     path: Assets/MyProject/Scenes/ThanksForPlaing.unity
     guid: 3dd4a396b5225f8469b9a1eb608bfa57
   - enabled: 0
     path: Assets/MyProject/Scenes/Title.unity
     guid: d8da8b36a8bf54755b1e8a353f9092a1
+  - enabled: 0
+    path: Assets/MyProject/Scenes/New Scene.unity
+    guid: db731d4ed27944ace8dfb3f3d00b2e7f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 484442d1db2f347b0a53d71ad8e207b4, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9d5a70b3a83f7294a8d9e22a6ba49a6a, type: 2}
