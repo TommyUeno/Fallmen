@@ -149,14 +149,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 26249128}
-  m_LocalRotation: {x: -0.6532815, y: 0.65328133, z: -0.27059835, w: 0.27059826}
-  m_LocalPosition: {x: 3.0147147, y: -7.4657946, z: 3.0742035}
+  m_LocalRotation: {x: -0.2705979, y: 0.65328157, z: -0.65328175, w: -0.2705976}
+  m_LocalPosition: {x: 3.014715, y: -7.465795, z: 3.0742037}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2030143603}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 135, z: -90}
+  m_LocalEulerAnglesHint: {x: 90, y: 180, z: -45}
 --- !u!64 &26249130
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -443,14 +443,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 239275962}
-  m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
-  m_LocalPosition: {x: -3.9852853, y: -17.465805, z: -3.9257965}
+  m_LocalRotation: {x: -0, y: 0.92387944, z: -0, w: 0.38268375}
+  m_LocalPosition: {x: -3.985285, y: -17.465803, z: -3.9257963}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2030143603}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 135, z: 0}
 --- !u!64 &239275964
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2581,14 +2581,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1957155670}
-  m_LocalRotation: {x: -0.2705981, y: 0.27059805, z: -0.6532814, w: 0.65328157}
-  m_LocalPosition: {x: -10.985285, y: -7.465805, z: 3.0742035}
+  m_LocalRotation: {x: 0.270598, y: 0.65328157, z: -0.6532815, w: 0.2705981}
+  m_LocalPosition: {x: -10.985285, y: -7.465805, z: 3.0742037}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2030143603}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 45, z: -90}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: -135}
 --- !u!64 &1957155672
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2678,7 +2678,7 @@ Transform:
   m_GameObject: {fileID: 2030143602}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.9852853, y: 17.465805, z: 3.9257965}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
+  m_LocalScale: {x: 1.05, y: 1.05, z: 1.05}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 239275963}
