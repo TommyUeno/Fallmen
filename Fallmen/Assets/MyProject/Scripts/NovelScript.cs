@@ -9,6 +9,7 @@ public class NovelScript : MonoBehaviour
     [SerializeField] List<string> messageList = new List<string>();
     [SerializeField] TextMeshProUGUI text;
     [SerializeField] float novelSpeed;
+    [SerializeField] AudioSource TextSound;
     int novelListIndex = 0;
 
     [SerializeField] GameObject GameStartUI;
@@ -24,7 +25,7 @@ public class NovelScript : MonoBehaviour
     {
         int messageCount = 0;
         text.text = "";
-        //textaudio.Play();
+        TextSound.Play();
 
         while (messageList[novelListIndex].Length > messageCount)
         {
