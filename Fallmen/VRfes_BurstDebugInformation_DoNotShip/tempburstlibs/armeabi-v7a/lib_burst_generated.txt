@@ -164,7 +164,6 @@ Library: lib_burst_generated
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Unity.Postprocessing.Runtime.dll
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Unity.VisualScripting.Flow.dll
---root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Whinarn.UnityMeshSimplifier.Runtime.dll
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Unity.VisualScripting.Core.dll
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Unity.XR.Oculus.dll
 --root-assembly=/Users/uenotomohiro/Fallmen/Fallmen/Temp/StagingArea/Data/Managed/Unity.Services.Core.Environments.Internal.dll
