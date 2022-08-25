@@ -171,7 +171,8 @@ public class OVRPlayerController : MonoBehaviour
 
 
 	public float i;
-	
+
+	[SerializeField] AudioSource NetaSE;
 
 	[SerializeField] GameObject opui;
     private bool isOnGround;
@@ -354,6 +355,11 @@ public class OVRPlayerController : MonoBehaviour
 
 		if (predictedXZ != actualXZ)
 			MoveThrottle += (actualXZ - predictedXZ) / (SimulationRate * Time.deltaTime);
+
+		if(OVRInput.GetDown(OVRInput.RawButton.Y))
+        {
+			NetaSE.Play();
+        }
 	}
 
 
