@@ -13,6 +13,7 @@ public class Gotomain : MonoBehaviour
     void Start()
     {
         
+       
     }
 
     // Update is called once per frame
@@ -23,13 +24,20 @@ public class Gotomain : MonoBehaviour
             SceneManager.LoadSceneAsync(3);
         }
     }
+    public void ChangeScene()
+    {
+        
+
+        SceneManager.LoadSceneAsync("Stage");
+    }
 
     public void OnClick()
     {
-        Invoke("ChangeScene", 4f);
-
         OVRFade.FadeOut();
-        SceneManager.LoadSceneAsync("Stage");
+
+        Invoke("ChangeScene", 3f);
+
+      
         
     }
 }

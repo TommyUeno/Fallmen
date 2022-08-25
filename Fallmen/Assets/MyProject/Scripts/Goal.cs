@@ -14,7 +14,7 @@ public class Goal : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -27,14 +27,20 @@ public class Goal : MonoBehaviour
     {
        if(other.gameObject.CompareTag("Player"))
         {
-           // timer.TimerStop();
-
-            Debug.Log(" scene cange");
+            // timer.TimerStop();
 
             OVRFade.FadeOut();
 
-            SceneManager.LoadScene("End");
+
+            Invoke("ChangeScene", 1f);
 
         }
+
     }
+
+    public void ChangeScene()
+    {
+        SceneManager.LoadScene("End");
+    }
+        
 }

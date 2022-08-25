@@ -12,6 +12,7 @@ public class GotoTFP : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        OVRFade.FadeOut();
         Invoke("ChangeScene", 10f);
     }
 
@@ -22,7 +23,7 @@ public class GotoTFP : MonoBehaviour
     }
     void ChangeScene()
     {
-        OVRFade.FadeOut();
+        
         SceneManager.LoadSceneAsync("ThanksForPlaing");
     }
 }
