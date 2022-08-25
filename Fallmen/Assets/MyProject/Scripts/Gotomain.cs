@@ -26,7 +26,7 @@ public class Gotomain : MonoBehaviour
     }
     public void ChangeScene()
     {
-        SceneManager.LoadSceneAsync("Stage");
+        SceneManager.LoadSceneAsync("ReStage");
     }
 
     public void OnClick()
