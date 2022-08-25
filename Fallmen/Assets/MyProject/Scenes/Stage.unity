@@ -8292,6 +8292,7 @@ Transform:
   - {fileID: 1610980420}
   - {fileID: 1018818223}
   - {fileID: 1313016389}
+  - {fileID: 2057864380}
   - {fileID: 384856820}
   - {fileID: 59506048}
   - {fileID: 1155980744}
@@ -8319,7 +8320,6 @@ Transform:
   - {fileID: 1783480418}
   - {fileID: 694637098}
   - {fileID: 898560013}
-  - {fileID: 2057864380}
   - {fileID: 2068660598}
   - {fileID: 2102338502}
   - {fileID: 631207213}
@@ -8905,7 +8905,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1947967918}
-  m_RootOrder: 94
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2057864381
 MonoBehaviour:
@@ -8920,6 +8920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 8008982806310660606}
+  OVRFade: {fileID: 9032097589041694381}
 --- !u!1001 &2068660597
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13767,6 +13768,10 @@ PrefabInstance:
       propertyPath: Damping
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8748575664579776962, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
+      propertyPath: fadeTime
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8748575664579776963, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
       propertyPath: m_CameraType
       value: 0
@@ -13781,3 +13786,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
+--- !u!114 &9032097589041694381 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8748575664579776962, guid: a92733c88cc1c473c99827e1fcedb569, type: 3}
+  m_PrefabInstance: {fileID: 9032097589041694380}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df8e1d778abf442e4bec449c360e9e1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

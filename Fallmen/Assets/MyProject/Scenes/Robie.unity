@@ -2007,6 +2007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 362ff11620cf187429507859e5ce9ddc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OVRFade: {fileID: 8311145699193312614}
 --- !u!1 &2098205826
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class Gotomain : MonoBehaviour
 {
+    [SerializeField] OVRScreenFade OVRFade;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +26,10 @@ public class Gotomain : MonoBehaviour
 
     public void OnClick()
     {
-        Invoke("ChangeScene", 2f);
+        Invoke("ChangeScene", 4f);
+
+        OVRFade.FadeOut();
         SceneManager.LoadSceneAsync("Stage");
+        
     }
 }
