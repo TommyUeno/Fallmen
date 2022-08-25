@@ -13,7 +13,7 @@ public class ScoreData : MonoBehaviour
 
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);  //DontDestroyOnLoadでシーン遷移後も保存出来る
+        DontDestroyOnLoad(gameObject);  //DontDestroyOnLoadでシーン遷移後も保存出来る
         second = 00;  //ゲームスタート時のスコア
         minute = 00;
         hour = 00;
