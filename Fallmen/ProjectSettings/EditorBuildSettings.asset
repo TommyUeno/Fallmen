@@ -18,9 +18,6 @@ EditorBuildSettings:
     path: Assets/MyProject/Scenes/End.unity
     guid: a5f2b5abbacb547209c9f0244a2de6d9
   - enabled: 0
-    path: Assets/MyProject/Scenes/Sample.unity
-    guid: e48ba0bf56d1e4fe9a5b06c9a04452f8
-  - enabled: 0
     path: Assets/MyProject/Scenes/ThanksForPlaing.unity
     guid: 3dd4a396b5225f8469b9a1eb608bfa57
   - enabled: 0
