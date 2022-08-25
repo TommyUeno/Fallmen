@@ -27,7 +27,7 @@ public class Goal : MonoBehaviour
     {
        if(other.gameObject.CompareTag("Player"))
         {
-            Invoke("ChangeScene", 4f);
+           
 
             SceneManager.LoadSceneAsync("End");
 
@@ -39,7 +39,7 @@ public class Goal : MonoBehaviour
     public void ChangeScene()
     {
 
-        OVRFade.FadeOut();
+        //OVRFade.FadeOut();
     }
         
 }

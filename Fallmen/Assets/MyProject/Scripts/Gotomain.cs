@@ -35,7 +35,5 @@ public class Gotomain : MonoBehaviour
 
         Invoke("ChangeScene", 3f);
 
-      
-        
     }
 }
