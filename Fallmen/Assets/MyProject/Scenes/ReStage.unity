@@ -1251,6 +1251,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8008982806874452146, guid: d796bb5534d2a4e4e95067723cc05a5d, type: 3}
+      propertyPath: m_Name
+      value: Text (Timerdayo)
+      objectReference: {fileID: 0}
     - target: {fileID: 8008982806874452151, guid: d796bb5534d2a4e4e95067723cc05a5d, type: 3}
       propertyPath: Sd
       value: 
