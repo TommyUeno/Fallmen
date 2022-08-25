@@ -36,10 +36,4 @@ public class Goal : MonoBehaviour
 
     }
 
-    public void ChangeScene()
-    {
-
-        //OVRFade.FadeOut();
-    }
-        
 }
