@@ -18,7 +18,7 @@ public class ReGotoRobie : MonoBehaviour
     {
         
     }
-    void ChangeScene()
+    public void ChangeScene()
     {
         OVRFade.FadeOut();
         SceneManager.LoadSceneAsync("Robie");

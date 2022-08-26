@@ -5,19 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/MyProject/Scenes/Attention.unity
     guid: cef411192a2744dac855f979dbde79f8
-  - enabled: 0
+  - enabled: 1
     path: Assets/MyProject/Scenes/Robie.unity
     guid: ea4df832f7dff46a297f1dac7f0f558a
   - enabled: 1
     path: Assets/MyProject/Scenes/End.unity
     guid: a5f2b5abbacb547209c9f0244a2de6d9
-  - enabled: 0
+  - enabled: 1
     path: Assets/MyProject/Scenes/ThanksForPlaing.unity
     guid: 3dd4a396b5225f8469b9a1eb608bfa57
-  - enabled: 0
+  - enabled: 1
     path: Assets/MyProject/Scenes/Title.unity
     guid: d8da8b36a8bf54755b1e8a353f9092a1
   - enabled: 1
