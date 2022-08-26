@@ -13,7 +13,7 @@ public class GotoTFP : MonoBehaviour
     void Start()
     {
         
-        Invoke("ChangeScene", 10f);
+        Invoke("ChangeScene", 8f);
 
     }
 
