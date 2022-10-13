@@ -325,7 +325,7 @@ public class OVRPlayerController : MonoBehaviour
 			Jump();
 		}
 
-		//////////////// Gravity
+		 ///Gravity
 		if (Controller.isGrounded && FallSpeed <= 0)
 			FallSpeed = ((Physics.gravity.y * (GravityModifier * 0.002f )));
 		else
@@ -401,7 +401,7 @@ public class OVRPlayerController : MonoBehaviour
 				(moveBack && moveLeft) || (moveBack && moveRight))
 				MoveScale = 0.70710678f;
 
-			///////// No positional movement if we are in the air
+		 /////// No positional movement if we are in the air
 			 if (!Controller.isGrounded)
 			{
 				OVRInput.SetControllerVibration(frequency: 0.1f, amplitude: 0.1f);
