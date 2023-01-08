@@ -2199,6 +2199,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3727260261970193737, guid: 0b4dd104633be44c8a273f1845c77e44, type: 3}
   m_PrefabInstance: {fileID: 706458361}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &706458363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3727260261970193733, guid: 0b4dd104633be44c8a273f1845c77e44, type: 3}
+  m_PrefabInstance: {fileID: 706458361}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &727442594
 GameObject:
   m_ObjectHideFlags: 0
@@ -7324,7 +7329,7 @@ MonoBehaviour:
   RotationEitherThumbstick: 0
   i: 0
   NetaSE: {fileID: 3841522524740841677}
-  opui: {fileID: 0}
+  opui: {fileID: 706458363}
 --- !u!114 &1699097750383778857
 MonoBehaviour:
   m_ObjectHideFlags: 0
